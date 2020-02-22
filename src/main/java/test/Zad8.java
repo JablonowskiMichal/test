@@ -1,6 +1,6 @@
 package test;
 
-public class zad8 {
+public class Zad8 {
 
     public static void repleaceStos(int[] arr) {
         int n = arr.length - 1;
@@ -15,7 +15,6 @@ public class zad8 {
         System.out.println();
         System.out.println("Najwieksza suma wybranych liczb z powyższego zbioru wynosi:" + a);
     }
-
 
     public static void main(String[] args) {
         int arr[] = {-1, 2, 3, 4, -2};
