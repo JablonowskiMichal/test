@@ -7,7 +7,7 @@ public class Zad6 {
         int n = arr.length;
 
         do {
-            for (int i = 0; i < n ; i++) {
+            for (int i = 0; i < n; i++) {
                 for (int j = 0; j < i; j++) {
                     int a = arr[j];
                     int b = arr[j + 1];
@@ -27,7 +27,7 @@ public class Zad6 {
     }
 
     public static void main(String[] args) {
-        int arr[] = {8, 3, 5, 4, 1, 2};
+        int arr[] = {8, 3, 5, 4, 1, 2, 0};
         for (int x = 0; x <= arr.length - 1; x++) {
             System.out.print(arr[x] + " ");
         }
